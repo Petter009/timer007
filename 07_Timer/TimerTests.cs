@@ -41,7 +41,7 @@ namespace _07_Timer
         public void ShouldDisplay4000SecondsToStringAs01ː40ː06()
         {
             timer.Seconds = 4000;
-            Assert.AreEqual("01:40:06", timer.ToString());
+            Assert.AreEqual("01:06:40", timer.ToString());
         }
         // One way to implement the Timer is with a helper method.
         // Uncomment these specs if you want to test-drive that
